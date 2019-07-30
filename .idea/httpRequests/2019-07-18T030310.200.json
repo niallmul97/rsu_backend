@@ -1,0 +1,83 @@
+[
+  {
+    "_id": "5d307aff2a0dc050969d0d07",
+    "rcg_id": 17219,
+    "active_member_id": 5,
+    "title": "Dr",
+    "name_first": "Bob",
+    "name_last": "The Builder",
+    "academic_staff": "Yes"
+  },
+  {
+    "_id": "5d307aff2a0dc050969d0d06",
+    "rcg_id": 17219,
+    "active_member_id": 2,
+    "title": "Mr",
+    "name_first": "Bob",
+    "name_last": "The Builder",
+    "academic_staff": "Yes"
+  },
+  {
+    "_id": "5d307aff2a0dc050969d0d08",
+    "rcg_id": 17219,
+    "active_member_id": 6,
+    "title": "Dr",
+    "name_first": "Bob",
+    "name_last": "The Builder",
+    "academic_staff": "Yes"
+  },
+  {
+    "_id": "5d307aff2a0dc050969d0d09",
+    "rcg_id": 17219,
+    "active_member_id": 7,
+    "title": "Ms",
+    "name_first": "Bob",
+    "name_last": "The Builder",
+    "academic_staff": "Yes"
+  },
+  {
+    "_id": "5d307aff2a0dc050969d0d0a",
+    "rcg_id": 17219,
+    "active_member_id": 8,
+    "title": "Mr",
+    "name_first": "Bob",
+    "name_last": "The Builder",
+    "academic_staff": "Yes"
+  },
+  {
+    "_id": "5d307aff2a0dc050969d0d0b",
+    "rcg_id": 17219,
+    "active_member_id": 1,
+    "title": "Dr",
+    "name_first": "Bob",
+    "name_last": "The Builder",
+    "academic_staff": "Yes"
+  },
+  {
+    "_id": "5d307aff2a0dc050969d0d0c",
+    "rcg_id": 17219,
+    "active_member_id": 9,
+    "title": "Ms",
+    "name_first": "Bob",
+    "name_last": "The Builder",
+    "academic_staff": "Yes"
+  },
+  {
+    "_id": "5d307aff2a0dc050969d0d0d",
+    "rcg_id": 17219,
+    "active_member_id": 3,
+    "title": "Dr",
+    "name_first": "Bob",
+    "name_last": "The Builder",
+    "academic_staff": "Yes"
+  },
+  {
+    "_id": "5d307aff2a0dc050969d0d0e",
+    "rcg_id": 17219,
+    "active_member_id": 4,
+    "title": "Dr",
+    "name_first": "Bob",
+    "name_last": "The Builder",
+    "academic_staff": "Yes"
+  }
+]

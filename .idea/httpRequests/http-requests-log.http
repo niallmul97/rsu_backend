@@ -1,0 +1,546 @@
+GET http://localhost:3000/active_members
+Content-Type: application/json
+Cache-Control: no-cache
+Accept: */*
+
+{"email": "TSSG@wit.ie", "password": "abc123", "userId" : 17216}
+
+<> 2019-07-26T022917.200.json
+
+###
+
+GET http://localhost:3000/user
+Content-Type: application/json
+Cache-Control: no-cache
+Accept: */*
+
+{"email": "TSSG@wit.ie", "password": "abc123", "userId" : 17216}
+
+<> 2019-07-25T022132.200.json
+
+###
+
+POST http://localhost:3000/user
+Content-Type: application/json
+Cache-Control: no-cache
+Accept: */*
+
+{"email": "TSSG@wit.ie", "password": "abc123", "userId" : 17216}
+
+<> 2019-07-25T022126.200.json
+
+###
+
+PUT http://localhost:3000/active_members/_id/5d39a503e81d5e89e0881357/researcher/Y
+Content-Type: application/json
+Cache-Control: no-cache
+Accept: */*
+
+{"rcg_id": 9999, "name_first": "BOB", "researcher" : "true"}
+
+<> 2019-07-25T015354.200.json
+
+###
+
+PUT http://localhost:3000/active_members/_id/5d39a503e81d5e89e0881357/researcher/false
+Content-Type: application/json
+Cache-Control: no-cache
+Accept: */*
+
+{"rcg_id": 9999, "name_first": "BOB", "researcher" : "true"}
+
+<> 2019-07-25T015250.200.json
+
+###
+
+PUT http://localhost:3000/active_members/_id/5d39a503e81d5e89e0881357/researcher/Y
+Content-Type: application/json
+Cache-Control: no-cache
+Accept: */*
+
+{"rcg_id": 9999, "name_first": "BOB", "researcher" : "true"}
+
+<> 2019-07-25T015234.200.json
+
+###
+
+PUT http://localhost:3000/active_members/_id/5d39a503e81d5e89e0881357/researcher/'N'
+Content-Type: application/json
+Cache-Control: no-cache
+Accept: */*
+
+{"rcg_id": 9999, "name_first": "BOB", "researcher" : "true"}
+
+<> 2019-07-25T015214.200.json
+
+###
+
+PUT http://localhost:3000/active_members/_id/5d39a503e81d5e89e0881357/researcher/"N"
+Content-Type: application/json
+Cache-Control: no-cache
+Accept: */*
+
+{"rcg_id": 9999, "name_first": "BOB", "researcher" : "true"}
+
+###
+
+PUT http://localhost:3000/active_members/_id/5d39a503e81d5e89e0881357/researcher/N
+Content-Type: application/json
+Cache-Control: no-cache
+Accept: */*
+
+{"rcg_id": 9999, "name_first": "BOB", "researcher" : "true"}
+
+<> 2019-07-25T015112.200.json
+
+###
+
+GET http://localhost:3000/active_members
+Content-Type: application/json
+Cache-Control: no-cache
+Accept: */*
+
+{"rcg_id": 9999, "name_first": "BOB", "researcher" : "true"}
+
+<> 2019-07-25T014835.200.json
+
+###
+
+POST http://localhost:3000/active_members
+Content-Type: application/json
+Cache-Control: no-cache
+Accept: */*
+
+{"rcg_id": 9999, "name_first": "BOB", "researcher" : "true"}
+
+<> 2019-07-25T014804.200.json
+
+###
+
+POST http://localhost:3000/active_member
+Content-Type: application/json
+Cache-Control: no-cache
+Accept: */*
+
+{"rcg_id": 9999, "name_first": "BOB", "researcher" : "true"}
+
+<> 2019-07-25T014745.404.html
+
+###
+
+GET http://localhost:3000/csvOut/research_groups/rcg_id/17216
+Content-Type: application/json
+Cache-Control: no-cache
+Accept: */*
+
+{"email":"realemail@123.com", "password": "catsanddogs123"}
+
+<> 2019-07-23T014355.200.json
+
+###
+
+GET http://localhost:3000/csvOut/research_groups/rcg_id/17216
+Content-Type: application/json
+Cache-Control: no-cache
+Accept: */*
+
+{"email":"realemail@123.com", "password": "catsanddogs123"}
+
+<> 2019-07-23T014150.200.json
+
+###
+
+GET http://localhost:3000/csvOut/research_groups/rcg_id/17216
+Content-Type: application/json
+Cache-Control: no-cache
+Accept: */*
+
+{"email":"realemail@123.com", "password": "catsanddogs123"}
+
+<> 2019-07-23T013827.200.json
+
+###
+
+GET http://localhost:3000/csvOut/research_groups/rcg_id/17219
+Content-Type: application/json
+Cache-Control: no-cache
+Accept: */*
+
+{"email":"realemail@123.com", "password": "catsanddogs123"}
+
+<> 2019-07-23T013535.200.json
+
+###
+
+GET http://localhost:3000/csvOut/research_groups/rcg_id/17219
+Content-Type: application/json
+Cache-Control: no-cache
+Accept: */*
+
+{"email":"realemail@123.com", "password": "catsanddogs123"}
+
+<> 2019-07-23T012908.200.json
+
+###
+
+GET http://localhost:3000/csvOut/research_groups/rcg_id/17220
+Content-Type: application/json
+Cache-Control: no-cache
+Accept: */*
+
+{"email":"realemail@123.com", "password": "catsanddogs123"}
+
+<> 2019-07-23T012819.200.json
+
+###
+
+GET http://localhost:3000/csvOut/publications/rcg_id/17220
+Content-Type: application/json
+Cache-Control: no-cache
+Accept: */*
+
+{"email":"realemail@123.com", "password": "catsanddogs123"}
+
+<> 2019-07-23T011335.200.json
+
+###
+
+GET http://localhost:3000/csvOut/publications/rcg_id/17220
+Content-Type: application/json
+Cache-Control: no-cache
+Accept: */*
+
+{"email":"realemail@123.com", "password": "catsanddogs123"}
+
+<> 2019-07-23T011304.200.json
+
+###
+
+GET http://localhost:3000/csvOut/publications/rcg_id/17216
+Content-Type: application/json
+Cache-Control: no-cache
+Accept: */*
+
+{"email":"realemail@123.com", "password": "catsanddogs123"}
+
+<> 2019-07-23T010545.200.json
+
+###
+
+GET http://localhost:3000/csvOut/postgrads_graduate/rcg_id/17216
+Content-Type: application/json
+Cache-Control: no-cache
+Accept: */*
+
+{"email":"realemail@123.com", "password": "catsanddogs123"}
+
+<> 2019-07-23T125520.200.json
+
+###
+
+GET http://localhost:3000/csvOut/postgrads_graduate/rcg_id/17216
+Content-Type: application/json
+Cache-Control: no-cache
+Accept: */*
+
+{"email":"realemail@123.com", "password": "catsanddogs123"}
+
+<> 2019-07-23T125505.200.json
+
+###
+
+GET http://localhost:3000/csvOut/postgrads_graduate/rcg_id/17216
+Content-Type: application/json
+Cache-Control: no-cache
+Accept: */*
+
+{"email":"realemail@123.com", "password": "catsanddogs123"}
+
+<> 2019-07-23T125427.200.json
+
+###
+
+GET http://localhost:3000/csvOut/postgrads_graduate/rcg_id/17216
+Content-Type: application/json
+Cache-Control: no-cache
+Accept: */*
+
+{"email":"realemail@123.com", "password": "catsanddogs123"}
+
+<> 2019-07-23T125418.200.json
+
+###
+
+GET http://localhost:3000/csvOut/postgrads_enrolled/rcg_id/17216
+Content-Type: application/json
+Cache-Control: no-cache
+Accept: */*
+
+{"email":"realemail@123.com", "password": "catsanddogs123"}
+
+<> 2019-07-23T125035.200.json
+
+###
+
+GET http://localhost:3000/csvOut/external_research/rcg_id/17216
+Content-Type: application/json
+Cache-Control: no-cache
+Accept: */*
+
+{"email":"realemail@123.com", "password": "catsanddogs123"}
+
+<> 2019-07-23T124126.200.json
+
+###
+
+GET http://localhost:3000/csvOut/additional_research/rcg_id/17216
+Content-Type: application/json
+Cache-Control: no-cache
+Accept: */*
+
+{"email":"realemail@123.com", "password": "catsanddogs123"}
+
+<> 2019-07-18T043220.200.json
+
+###
+
+GET http://localhost:3000/csvOut/additional_research/rcg_id/17216
+Content-Type: application/json
+Cache-Control: no-cache
+Accept: */*
+
+{"email":"realemail@123.com", "password": "catsanddogs123"}
+
+<> 2019-07-18T043152.200.json
+
+###
+
+GET http://localhost:3000/csvOut/additional_research/rcg_id/17216
+Content-Type: application/json
+Cache-Control: no-cache
+Accept: */*
+
+{"email":"realemail@123.com", "password": "catsanddogs123"}
+
+<> 2019-07-18T042910.200.json
+
+###
+
+GET http://localhost:3000/csvOut/additional_research/rcg_id/17216
+Content-Type: application/json
+Cache-Control: no-cache
+Accept: */*
+
+{"email":"realemail@123.com", "password": "catsanddogs123"}
+
+<> 2019-07-18T041848.200.json
+
+###
+
+GET http://localhost:3000/csvOut/additional_research/rcg_id/17216
+Content-Type: application/json
+Cache-Control: no-cache
+Accept: */*
+
+{"email":"realemail@123.com", "password": "catsanddogs123"}
+
+<> 2019-07-18T041605.200.json
+
+###
+
+GET http://localhost:3000/csvOut/additional_research/rcg_id/17216
+Content-Type: application/json
+Cache-Control: no-cache
+Accept: */*
+
+{"email":"realemail@123.com", "password": "catsanddogs123"}
+
+<> 2019-07-18T041548.404.html
+
+###
+
+GET http://localhost:3000/csvOut/active_members/rcg_id/17216
+Content-Type: application/json
+Cache-Control: no-cache
+Accept: */*
+
+{"email":"realemail@123.com", "password": "catsanddogs123"}
+
+<> 2019-07-18T033947.200.json
+
+###
+
+GET http://localhost:3000/csvOut/active_members/rcg_id/17219
+Content-Type: application/json
+Cache-Control: no-cache
+Accept: */*
+
+{"email":"realemail@123.com", "password": "catsanddogs123"}
+
+<> 2019-07-18T033652.200.json
+
+###
+
+GET http://localhost:3000/csvOut/active_members/rcg_id/17219
+Content-Type: application/json
+Cache-Control: no-cache
+Accept: */*
+
+{"email":"realemail@123.com", "password": "catsanddogs123"}
+
+<> 2019-07-18T033440.200.json
+
+###
+
+GET http://localhost:3000/csvOut/active_members/rcg_id/17219
+Content-Type: application/json
+Cache-Control: no-cache
+Accept: */*
+
+{"email":"realemail@123.com", "password": "catsanddogs123"}
+
+<> 2019-07-18T033356.200.json
+
+###
+
+GET http://localhost:3000/csvOut/active_members/rcg_id/17219
+Content-Type: application/json
+Cache-Control: no-cache
+Accept: */*
+
+{"email":"realemail@123.com", "password": "catsanddogs123"}
+
+<> 2019-07-18T033205.200.json
+
+###
+
+GET http://localhost:3000/csvOut/ractive_members/rcg_id/17219
+Content-Type: application/json
+Cache-Control: no-cache
+Accept: */*
+
+{"email":"realemail@123.com", "password": "catsanddogs123"}
+
+<> 2019-07-18T033121.404.html
+
+###
+
+GET http://localhost:3000/csvOut/rcg_id/17219
+Content-Type: application/json
+Cache-Control: no-cache
+Accept: */*
+
+{"email":"realemail@123.com", "password": "catsanddogs123"}
+
+<> 2019-07-18T032954.200.json
+
+###
+
+GET http://localhost:3000/csvOut/rcg_id/17219
+Content-Type: application/json
+Cache-Control: no-cache
+Accept: */*
+
+{"email":"realemail@123.com", "password": "catsanddogs123"}
+
+<> 2019-07-18T030337.200.json
+
+###
+
+GET http://localhost:3000/csvOut/rcg_id/17219
+Content-Type: application/json
+Cache-Control: no-cache
+Accept: */*
+
+{"email":"realemail@123.com", "password": "catsanddogs123"}
+
+<> 2019-07-18T030310.200.json
+
+###
+
+GET http://localhost:3000/csvOut/rcg_id/17220
+Content-Type: application/json
+Cache-Control: no-cache
+Accept: */*
+
+{"email":"realemail@123.com", "password": "catsanddogs123"}
+
+<> 2019-07-18T030240.200.json
+
+###
+
+GET http://localhost:3000/csvOut/rcg_id/17220
+Content-Type: application/json
+Cache-Control: no-cache
+Accept: */*
+
+{"email":"realemail@123.com", "password": "catsanddogs123"}
+
+<> 2019-07-18T030225.200.json
+
+###
+
+GET http://localhost:3000/csvOut/rcg_id/17220
+Content-Type: application/json
+Cache-Control: no-cache
+Accept: */*
+
+{"email":"realemail@123.com", "password": "catsanddogs123"}
+
+<> 2019-07-18T030208.200.json
+
+###
+
+GET http://localhost:3000/csvOut/rcg_id/17220
+Content-Type: application/json
+Cache-Control: no-cache
+Accept: */*
+
+{"email":"realemail@123.com", "password": "catsanddogs123"}
+
+<> 2019-07-18T030027.200.json
+
+###
+
+GET http://localhost:3000/csvOut/rcg_id/17220
+Content-Type: application/json
+Cache-Control: no-cache
+Accept: */*
+
+{"email":"realemail@123.com", "password": "catsanddogs123"}
+
+<> 2019-07-18T025814.200.json
+
+###
+
+GET http://localhost:3000/csvOut/rcg_id/17220
+Content-Type: application/json
+Cache-Control: no-cache
+Accept: */*
+
+{"email":"realemail@123.com", "password": "catsanddogs123"}
+
+###
+
+GET http://localhost:3000/csvOut/rcg_id/9999
+Content-Type: application/json
+Cache-Control: no-cache
+Accept: */*
+
+{"email":"realemail@123.com", "password": "catsanddogs123"}
+
+<> 2019-07-18T022109.200.json
+
+###
+
+GET http://localhost:3000/csvOut/rcg_id/9999
+Content-Type: application/json
+Cache-Control: no-cache
+Accept: */*
+
+{"email":"realemail@123.com", "password": "catsanddogs123"}
+
+<> 2019-07-18T020810.200.json
+
+###
+
